@@ -4,7 +4,9 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod(modid = ExampleMod.MOD_ID,
         name = ExampleMod.MOD_NAME,
-        version = ExampleMod.VERSION)
+        version = ExampleMod.VERSION,
+        serverSideOnly = true,
+        acceptableRemoteVersions = "*")
 
 public class ExampleMod {
 
