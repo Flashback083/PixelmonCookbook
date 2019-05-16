@@ -1,5 +1,11 @@
 # PixelmonCookbook
-Documented example mod/plugin for Pixelmon Reforged
+Documented example mod/plugin for Pixelmon Reforged. <br>
+Includes information on pokemon, events, battles, economy, storage, and much more.
+
+## Useful Links
+ - For specific information head to [Reforged's JavaDocs](https://reforged.gg/docs/)
+ - For Pixelmon game mechanic information head to [Pixelmon's Wiki](https://pixelmonmod.com/wiki/index.php?title=Main_Page)
+ - For anything else head to [Reforged's Main Website](https://reforged.gg)
 
 ## Contributing
 
