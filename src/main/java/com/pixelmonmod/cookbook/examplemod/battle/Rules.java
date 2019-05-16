@@ -2,6 +2,7 @@ package com.pixelmonmod.cookbook.examplemod.battle;
 
 import com.pixelmonmod.pixelmon.battles.rules.BattleRules;
 
+/** @author Flashback083 on 5/16/19 */
 public class Rules {
 
     private boolean fullHeal;

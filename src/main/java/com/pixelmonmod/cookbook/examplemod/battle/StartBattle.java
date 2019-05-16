@@ -9,6 +9,7 @@ import com.pixelmonmod.pixelmon.comm.packetHandlers.battles.EnumBattleQueryRespo
 import com.pixelmonmod.pixelmon.enums.battle.EnumBattleType;
 import net.minecraft.entity.player.EntityPlayerMP;
 
+/** @author Flashback083 on 5/16/19 */
 public class StartBattle {
 
    private EntityPlayerMP player1;
