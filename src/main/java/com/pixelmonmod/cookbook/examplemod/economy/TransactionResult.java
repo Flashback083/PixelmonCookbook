@@ -1,5 +1,6 @@
 package com.pixelmonmod.cookbook.examplemod.economy;
 
+/** @author TSEcho on 5/16/19 */
 public enum TransactionResult {
 
     SUCCESS, FAILURE;
