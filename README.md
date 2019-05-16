@@ -1,2 +1,2 @@
 # PixelmonCookbook
-Small, documented example plugins for Pixelmon Reforged
+Documented example plugin for Pixelmon Reforged
