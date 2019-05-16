@@ -8,7 +8,14 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import java.util.List;
 import java.util.Optional;
 
+/** @author TSEcho on 5/16/19 */
 public class PokemonParty {
+
+    /*
+      PartyStorage extends PokemonStorage and only represents the player's actual party.
+      If you want to just look at PCStorage then use that class and if you want to access all of
+      the player's pokemon use PokemonStorage
+     */
 
     private EntityPlayerMP player;
     private PartyStorage party;
