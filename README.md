@@ -1,5 +1,5 @@
 # PixelmonCookbook
-Documented example plugin for Pixelmon Reforged
+Documented example mod/plugin for Pixelmon Reforged
 
 ## Contributing
 
