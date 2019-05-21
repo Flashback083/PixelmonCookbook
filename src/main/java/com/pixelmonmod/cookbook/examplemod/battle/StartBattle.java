@@ -12,20 +12,20 @@ import net.minecraft.entity.player.EntityPlayerMP;
 /** @author Flashback083 on 5/16/19 */
 public class StartBattle {
 
-   private EntityPlayerMP player1;
-   private EntityPlayerMP player2;
-   private BattleRules rules = new Rules().getRules();
+    private EntityPlayerMP player1;
+    private EntityPlayerMP player2;
+    private BattleRules rules = new Rules().getRules();
 
 
 
-   /* Start a battle, simple like /pokebattle command */
-   public void StartBattleSingle(EntityPlayerMP player1, EntityPlayerMP player2) {
-       PlayerParticipant[] p1 = {new PlayerParticipant(player1, Pixelmon.storageManager.getParty(player1).getAndSendOutFirstAblePokemon(player1))};
-       PlayerParticipant[] p2 = {new PlayerParticipant(player2, Pixelmon.storageManager.getParty(player2).getAndSendOutFirstAblePokemon(player2))};
-       BattleRegistry.startBattle(p1,p2, EnumBattleType.Single);
-   }
+    /* Start a battle, simple like /pokebattle command */
+    public void StartBattleSingle(EntityPlayerMP player1, EntityPlayerMP player2) {
+        PlayerParticipant[] p1 = {new PlayerParticipant(player1, Pixelmon.storageManager.getParty(player1).getAndSendOutFirstAblePokemon(player1))};
+        PlayerParticipant[] p2 = {new PlayerParticipant(player2, Pixelmon.storageManager.getParty(player2).getAndSendOutFirstAblePokemon(player2))};
+        BattleRegistry.startBattle(p1,p2, EnumBattleType.Single);
+    }
 
-   /* Start a battle with specified rules */
+    /* Start a battle with specified rules */
     public void StartBattleWithRules(EntityPlayerMP player1, EntityPlayerMP player2, BattleRules rules) {
         PlayerParticipant[] p1 = {new PlayerParticipant(player1, Pixelmon.storageManager.getParty(player1).getAndSendOutFirstAblePokemon(player1))};
         PlayerParticipant[] p2 = {new PlayerParticipant(player2, Pixelmon.storageManager.getParty(player2).getAndSendOutFirstAblePokemon(player2))};
@@ -58,5 +58,5 @@ public class StartBattle {
             battlequery.acceptQuery(player1, EnumBattleQueryResponse.Accept);
             battlequery.acceptQuery(player2, EnumBattleQueryResponse.Accept);
         }
-   }
+    }
 }
