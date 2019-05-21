@@ -1,6 +1,9 @@
 package com.pixelmonmod.cookbook.examplemod;
 
+import com.pixelmonmod.cookbook.examplemod.events.EventCapture;
+import com.pixelmonmod.pixelmon.Pixelmon;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 @Mod(modid = ExampleMod.MOD_ID,
         name = ExampleMod.MOD_NAME,
@@ -20,4 +23,9 @@ public class ExampleMod {
 
     @Mod.Instance(MOD_ID)
     public static ExampleMod INSTANCE;
+
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event){
+        Pixelmon.EVENT_BUS.register(new EventCapture());
+    }
 }
