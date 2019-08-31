@@ -6,7 +6,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 
 import java.util.UUID;
 
-/** @author TSEcho on 5/16/19 */
+/** @author NateCraft on 5/16/19 */
 public class PixelmonEcon {
 
     private IPixelmonBankAccount account;

@@ -6,15 +6,15 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 @Mod(modid = ExampleMod.MOD_ID,
-        name = ExampleMod.MOD_NAME,
-        version = ExampleMod.VERSION,
-        serverSideOnly = true,
-        acceptableRemoteVersions = "*")
+     name = ExampleMod.MOD_NAME,
+     version = ExampleMod.VERSION,
+     serverSideOnly = true,
+     acceptableRemoteVersions = "*")
 
 public class ExampleMod {
 
     /*
-      This mod showcases many of the various classes, enums, and methods from the Pixelmon Reforged API
+      This mod showcases many of the various helpful classes, enums, methods, and from the Pixelmon Reforged API
      */
 
     public static final String MOD_ID = "ExampleMod";

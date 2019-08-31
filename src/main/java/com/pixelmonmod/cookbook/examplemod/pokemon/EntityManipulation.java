@@ -6,7 +6,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.world.World;
 import net.minecraftforge.common.DimensionManager;
 
-/** @author TSEcho on 5/16/19 */
+/** @author NateCraft on 5/16/19 */
 public class EntityManipulation {
 
     /*

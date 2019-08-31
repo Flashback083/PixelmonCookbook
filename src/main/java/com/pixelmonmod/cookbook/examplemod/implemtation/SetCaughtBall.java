@@ -15,7 +15,7 @@ import net.minecraft.util.text.TextFormatting;
 import java.util.Arrays;
 import java.util.List;
 
-/** @author TSEcho on 5/16/19 */
+/** @author NateCraft on 5/16/19 */
 public class SetCaughtBall extends CommandBase {
 
      /*
