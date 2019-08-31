@@ -13,30 +13,26 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class EventCapture {
 
     @SubscribeEvent
-    public void onCaptureSuccessfull(CaptureEvent.SuccessfulCapture event){
+    public void onCaptureSuccessfull(CaptureEvent.SuccessfulCapture event) {
         EntityPlayerMP player = event.player;
-        EntityPokeBall pokeball = event.pokeball;
         EntityPixelmon pixelmon = event.getPokemon();
         Pokemon pokemon = pixelmon.getPokemonData();
         player.sendMessage(new TextComponentString("Gg for your capture ! " + pokemon.getSpecies().getPokemonName()));
     }
 
     @SubscribeEvent
-    public void onFailCapture(CaptureEvent.FailedCapture event){
+    public void onFailCapture(CaptureEvent.FailedCapture event) {
         EntityPlayerMP player = event.player;
-        EntityPokeBall pokeball = event.pokeball;
         EntityPixelmon pixelmon = event.getPokemon();
         Pokemon pokemon = pixelmon.getPokemonData();
         player.sendMessage(new TextComponentString("Sorry but you failed to capture : " + pokemon.getSpecies().getPokemonName()));
     }
 
     @SubscribeEvent
-    public void onStartedCapture(CaptureEvent.StartCapture event){
+    public void onStartedCapture(CaptureEvent.StartCapture event) {
         EntityPlayerMP player = event.player;
-        EntityPokeBall pokeball = event.pokeball;
         EntityPixelmon pixelmon = event.getPokemon();
         Pokemon pokemon = pixelmon.getPokemonData();
         player.sendMessage(new TextComponentString("You start to capture : " + pokemon.getSpecies().getPokemonName()));
     }
-
 }

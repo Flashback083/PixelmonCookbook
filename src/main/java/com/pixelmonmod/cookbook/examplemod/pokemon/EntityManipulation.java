@@ -10,7 +10,7 @@ import net.minecraftforge.common.DimensionManager;
 public class EntityManipulation {
 
     /*
-     Pixelmon does not story a Pokemon's data with the entity but rather in a wrapper object called Pokemon
+     Pixelmon does not store a Pokemon's data with the entity but rather in a wrapper object called Pokemon.
      From a pokemon object you can create an EntityPixelmon and vice versa. Generally, if you want to make
      changes to a pokemon, you will be making them to the Pokemon object and it will update automatically although
      some methods may take extra steps to update.

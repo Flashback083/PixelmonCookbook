@@ -6,7 +6,14 @@ import net.minecraft.entity.player.EntityPlayerMP;
 
 import java.util.UUID;
 
-/** @author NateCraft on 5/16/19 */
+/**
+ * @author NateCraft on 5/16/19
+ *
+ * Class is a wrapper for a given IPixelmonBankAccount
+ * Can be used to easily add, remove, and see a player's account without having to worry about implementation details
+ *
+ * @see TransactionResult
+ */
 public class PixelmonEcon {
 
     private IPixelmonBankAccount account;

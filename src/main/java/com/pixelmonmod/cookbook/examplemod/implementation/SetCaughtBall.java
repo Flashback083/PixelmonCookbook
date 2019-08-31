@@ -1,4 +1,4 @@
-package com.pixelmonmod.cookbook.examplemod.implemtation;
+package com.pixelmonmod.cookbook.examplemod.implementation;
 
 import com.pixelmonmod.cookbook.examplemod.storage.PokemonParty;
 import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
@@ -15,13 +15,12 @@ import net.minecraft.util.text.TextFormatting;
 import java.util.Arrays;
 import java.util.List;
 
-/** @author NateCraft on 5/16/19 */
+/** @author NateCraft on 5/16/19
+ *
+ *  This is a command to set the ball for a given Pokemon based on slot and player as an argument
+ *  The command will use the Pokemon object and how to use it
+ */
 public class SetCaughtBall extends CommandBase {
-
-     /*
-     This is a command to set the ball for a given Pokemon based on slot and player as an argument
-     The command will use the Pokemon object and how to use it
-     */
 
     @Override
     public String getName() {
