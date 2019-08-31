@@ -15,8 +15,9 @@ Details on [Sponge's contributing guide](https://docs.spongepowered.org/stable/e
 2. Create a branch with a descriptive but succinct name
 3. Make your changes to the code
 4. If you create an entirely new class, type out `/** @author <yourname> on <date> */` at the class header
-5. Add and commit your changes to your branch
-6. Push to your changes to github
-7. Submit a pull request via github
-8. Your pull request will be approved shortly 
+5. If you are editing a file significantly you can add yourself as a secondary author like `@author <yourname> on <date> - Edited`
+6. Add and commit your changes to your branch
+7. Push to your changes to github
+8. Submit a pull request via github
+9. Your pull request will be approved shortly 
 
