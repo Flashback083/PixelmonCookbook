@@ -10,10 +10,10 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 
 /** @author Flashback083 on 5/21/19 */
-public class EventCapture {
+public class CaptureListener {
 
     @SubscribeEvent
-    public void onCaptureSuccessfull(CaptureEvent.SuccessfulCapture event) {
+    public void onCaptureSuccessful(CaptureEvent.SuccessfulCapture event) {
         EntityPlayerMP player = event.player;
         EntityPixelmon pixelmon = event.getPokemon();
         Pokemon pokemon = pixelmon.getPokemonData();

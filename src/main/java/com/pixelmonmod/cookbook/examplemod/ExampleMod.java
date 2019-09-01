@@ -1,6 +1,6 @@
 package com.pixelmonmod.cookbook.examplemod;
 
-import com.pixelmonmod.cookbook.examplemod.events.EventCapture;
+import com.pixelmonmod.cookbook.examplemod.events.CaptureListener;
 import com.pixelmonmod.pixelmon.Pixelmon;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -39,6 +39,6 @@ public class ExampleMod {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        Pixelmon.EVENT_BUS.register(new EventCapture());
+        Pixelmon.EVENT_BUS.register(new CaptureListener());
     }
 }
