@@ -22,7 +22,7 @@ The second step will be downloading and installing IntelliJ Community version. T
     
 ### Forge MDK
 
-Now that we Java and IntelliJ setup, we will need our forge workspace setup.
+Now that we have Java and IntelliJ setup, we will need our forge workspace setup.
 
 1.) Download one of the many versions of the Forge MDK from [Forge](https://files.minecraftforge.net/) <br>
     - Depending on what version pixelmon is on, the recommended forge version will change. <br>
