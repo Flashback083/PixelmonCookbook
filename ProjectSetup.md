@@ -1,6 +1,6 @@
-### Project Setup
+## Project Setup
 
-#### Java
+### Java
 
 Forge and Pixelmon will be running on Java 8 so you will need the Java JDK 8. It is important to get the version that works with your system's
 architecture so if you are running 32-bit make sure to get 32-bit and if you're running 64-bit then get 64-bit. Where you choose to get this is up to you
@@ -8,7 +8,7 @@ but an easy way to get it is through AdoptOpenJDK as shown in [this video](https
 
 Check if you downloaded this correctly by typing `java --version` in your terminal/command prompt.
 
-#### IntelliJ
+### IntelliJ
 
 The second step will be downloading and installing IntelliJ Community version. This will be out IDE to create our project. <br>
 
@@ -20,7 +20,7 @@ The second step will be downloading and installing IntelliJ Community version. T
     - MacOS: Drag the application from the DMG and place it into Applications <br>
     - Linux: Decompress the tar file and run the idea.sh script <br>
     
-#### Forge MDK
+### Forge MDK
 
 Now that we Java and IntelliJ setup, we will need our forge workspace setup.
 
@@ -41,7 +41,7 @@ Now that we Java and IntelliJ setup, we will need our forge workspace setup.
     - Windows: `gradlew genIntellijRuns` <br>
     - MacOS/Linux: `./gradlew genIntellijRuns`
     
-#### Minecraft Dev Plugin
+### Minecraft Dev Plugin
 
 To reduce some of of the boilerplate setup each time we want to make a new project, there is an incredibly helpful plugin 
 for IntelliJ called the Minecraft Dev Plugin. With this, we can easily add Forge to our workspace as well as any other APIs with a 
@@ -53,7 +53,7 @@ helpful GUI menu.
 2. Search into the marketplace "Minecraft Dev Plugin" and press install <br>
 2. Restart IntelliJ 
 
-#### Creating our Project
+### Creating our Project
 
 Now that we have all our tools setup, we just need to get our project made. 
 
@@ -70,7 +70,7 @@ Now that we have all our tools setup, we just need to get our project made.
     - If you renamed the folder, you will have to change it here as well <br>
 8.) Refresh your project by clicking on the gradle tab on the right of your screen and pressing the circular refresh icon
 
-#### Look through the rest of this Cookbook
+### Look through the rest of this Cookbook
 
 Now that you have your project ready to go, its time for development. Look through this cookbook for examples and helper classes
 that will show you how Pixelmon works. Also check out the `README.md` for information on useful links such as the Reforged JavaDocs
