@@ -2,6 +2,10 @@
 Documented example mod/plugin/library for Pixelmon Reforged. <br>
 Includes information, useful methods, and implementation examples on pokemon, events, battles, economy, storage, and much more.
 
+## Projcet Setup
+
+For information regarding how to setup your project in IntelliJ with Forge and Pixelmon, check out `ProjectSetup.md`
+
 ## Useful Links
  - For specific information head to [Reforged's JavaDocs](https://reforged.gg/docs/)
  - For Pixelmon game mechanic information head to [Reforged's Wiki](https://pixelmonmod.com/wiki/index.php?title=Main_Page)
