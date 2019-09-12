@@ -26,7 +26,7 @@ Now that we have Java and IntelliJ setup, we will need our forge workspace setup
 
 1.) Download one of the many versions of the Forge MDK from [Forge](https://files.minecraftforge.net/) <br>
     - Depending on what version pixelmon is on, the recommended forge version will change. <br>
-    - To find the recommended version, check out [Reforge's website](https://reforged.gg/) <br>
+    - To find the recommended version, check out [Reforged's website](https://reforged.gg/) <br>
 2.) Find a spot for this to stay and extract the files into that folder <br>
     - I often keep a libraries folder in a Code folder where I put various libraries I need access to <br>
 3.) Open a command prompt/terminal up to this folder <br>
@@ -63,7 +63,7 @@ Now that we have all our tools setup, we just need to get our project made.
 3.) Fill in the prompted boxes <br>
     - For the forge versions, pick the versions that go with the MDK you installed earlier <br>
 4.) Create the project and wait till its done being setup entirely <br>
-5.) Download the latest server jar from [Reforge's website](https://reforged.gg/) <br>
+5.) Download the latest server jar from [Reforged's website](https://reforged.gg/) <br>
 6.) Create a folder inside of your project called libs (this is our library folder and can be called whatever you want) <br>
 7.) Open up your `build.gradle` and add `compile files(libs/PixelmonJarName.jar)` <br>
     - Replace `PixelmonJarname.jar` with the full name of the Pixelmon jar you downloaded <br>
