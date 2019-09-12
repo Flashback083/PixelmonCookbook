@@ -65,7 +65,7 @@ Now that we have all our tools setup, we just need to get our project made.
 4.) Create the project and wait till its done being setup entirely <br>
 5.) Download the latest server jar from [Reforged's website](https://reforged.gg/) <br>
 6.) Create a folder inside of your project called libs (this is our library folder and can be called whatever you want) <br>
-7.) Open up your `build.gradle` and add `compile files(libs/PixelmonJarName.jar)` <br>
+7.) Open up your `build.gradle` and add `compile files(libs/PixelmonJarName.jar)` to your dependencies block <br>
     - Replace `PixelmonJarname.jar` with the full name of the Pixelmon jar you downloaded <br>
     - If you renamed the folder, you will have to change it here as well <br>
 8.) Refresh your project by clicking on the gradle tab on the right of your screen and pressing the circular refresh icon
