@@ -2,7 +2,7 @@
 Documented example mod/plugin/library for Pixelmon Reforged. <br>
 Includes information, useful methods, and implementation examples on pokemon, events, battles, economy, storage, and much more.
 
-## Projcet Setup
+## Project Setup
 
 For information regarding how to setup your project in IntelliJ with Forge and Pixelmon, check out `ProjectSetup.md`
 
