@@ -58,7 +58,7 @@ public class PixelmonEcon {
      */
     public TransactionResult deposit(int amount) {
         if(amount >= 0) {
-            account.changeMoney(-amount);
+            account.changeMoney(amount);
             account.updatePlayer(getBalance());
             return TransactionResult.SUCCESS;
         }
